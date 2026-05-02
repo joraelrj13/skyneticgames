@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorael Jamison">
+    <title>Skynetic Games | Creating Immersive Worlds</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">SKYNETIC <span>GAMES</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#games">GAMES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#devlog">DEVLOG</a></li>
+        </ul>
+    </nav>
+
+<header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content reveal">
+        <div class="brand-wrapper">
+            <div class="hero-text">
+                <h1>SKYNETIC<br><span>GAMES</span></h1>
+            </div>
+            <img src="assets/logo.jpeg" alt="Skynetic Logo" class="hero-logo">
+        </div>
+        
+        <p class="tagline">CREATING IMMERSIVE WORLDS.</p>
+        <a href="#games" class="btn">EXPLORE OUR GAMES &rarr;</a>
+    </div>
+    
+    <div class="scroll-indicator">
+        <div class="mouse"></div>
+        <p>SCROLL TO EXPLORE</p>
+    </div>
+</header>
+
+    <section id="games" class="featured-project">
+        <div class="project-info reveal">
+            <p class="section-label">FEATURED PROJECT</p>
+            <h2>UNTITLED<br>AQUARIUM<br>PROJECT</h2>
+            <p>Something isn't right in the water. Experience the unknown.</p>
+            <a href="#about" class="btn">VIEW PROJECT &rarr;</a>
+        </div>
+
+        <div class="slider-container reveal">
+            <div class="slider-image-wrapper">
+                <img src="assets/aquarium1.jpg" alt="Deepfall Aquarium" class="slider-img" id="sliderImage">
+                <div class="play-btn-overlay" id="playBtn">&#9658;</div>
+            </div>
+            <div class="slider-controls">
+                <button id="prevBtn">&lt;</button>
+                <div class="progress-bar"><div class="progress" id="sliderProgress"></div></div>
+                <button id="nextBtn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section reveal">
+        <div class="about-image">
+            <img src="assets/hallway.jpg" alt="Dark Hallway Concept">
+        </div>
+        <div class="about-content">
+            <p class="section-label">ABOUT SKYNETIC GAMES</p>
+            <h2>STORIES. ATMOSPHERE.<br>EMOTION.</h2>
+            <p>We build detailed worlds that blur the line between reality and imagination. Every game we create is crafted with passion, precision, and purpose.</p>
+            <br>
+            <a href="#devlog" class="btn">LEARN MORE &rarr;</a>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <h4>IMMERSIVE WORLDS</h4>
+                    <p>Rich environments that draw you in.</p>
+                </div>
+                <div class="feature">
+                    <h4>STORY DRIVEN</h4>
+                    <p>Narratives that stay with you.</p>
+                </div>
+                <div class="feature">
+                    <h4>PLAYER FOCUSED</h4>
+                    <p>Designed for meaningful experiences.</p>
+                </div>
+                <div class="feature">
+                    <h4>BUILT WITH CARE</h4>
+                    <p>Quality, performance, and attention to detail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="devlog" class="devlog-section reveal">
+        <div class="devlog-header">
+            <p class="section-label">FROM THE DEVLOG</p>
+            <a href="#" class="view-all">VIEW ALL ARTICLES &rarr;</a>
+        </div>
+        <div class="devlog-grid">
+            <div class="devlog-card">
+                <div class="card-img-wrapper"><img src="assets/devlog1.jpg" alt="Environment"></div>
+                <p class="card-category">ENVIRONMENT</p>
+                <h3>Creating Mood with Lighting</h3>
+                <p class="card-date">MAY 12, 2026</p>
+            </div>
+            <div class="devlog-card">
+                <div class="card-img-wrapper"><img src="assets/devlog2.jpg" alt="Development"></div>
+                <p class="card-category">DEVELOPMENT</p>
+                <h3>Progress Update</h3>
+                <p class="card-date">APR 28, 2026</p>
+            </div>
+            <div class="devlog-card">
+                <div class="card-img-wrapper"><img src="assets/devlog3.jpg" alt="Design"></div>
+                <p class="card-category">DESIGN</p>
+                <h3>Building the Aquarium</h3>
+                <p class="card-date">APR 15, 2026</p>
+            </div>
+            <div class="devlog-card">
+                <div class="card-img-wrapper"><img src="assets/devlog4.jpg" alt="Lore"></div>
+                <p class="card-category">LORE</p>
+                <h3>The Story So Far</h3>
+                <p class="card-date">APR 02, 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">SKYNETIC <span>GAMES</span></div>
+                <p>Creating immersive worlds.<br>Crafting unforgettable stories.</p>
+            </div>
+            <div class="footer-links">
+                <h4>STUDIO</h4>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>GAMES</h4>
+                <a href="#">All Games</a>
+                <a href="#">In Development</a>
+                <a href="#">Wishlist</a>
+            </div>
+            <div class="footer-links">
+                <h4>STAY UPDATED</h4>
+                <p>Get the latest news straight to your inbox.</p>
+                <input type="email" placeholder="Enter your email &rarr;" class="email-input">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Skynetic Games. Built by Jorael Jamison. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <iframe id="videoIframe" width="100%" height="500px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
