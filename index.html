@@ -15,7 +15,7 @@
         <ul class="nav-links">
             <li><a href="#home">HOME</a></li>
             <li><a href="#games">GAMES</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="#devlog">DEVLOG</a></li>
         </ul>
     </nav>
@@ -44,22 +44,25 @@
     <section id="games" class="featured-project">
         <div class="project-info reveal">
             <p class="section-label">FEATURED PROJECT</p>
-            <h2>UNTITLED<br>AQUARIUM<br>PROJECT</h2>
+            <h2>UNTITLED<br>GAMING<br>PROJECT</h2>
             <p>Something isn't right in the water. Experience the unknown.</p>
             <a href="#about" class="btn">VIEW PROJECT &rarr;</a>
         </div>
 
-        <div class="slider-container reveal">
-            <div class="slider-image-wrapper">
-                <img src="assets/aquarium1.jpg" alt="Deepfall Aquarium" class="slider-img" id="sliderImage">
-                <div class="play-btn-overlay" id="playBtn">&#9658;</div>
-            </div>
-            <div class="slider-controls">
-                <button id="prevBtn">&lt;</button>
-                <div class="progress-bar"><div class="progress" id="sliderProgress"></div></div>
-                <button id="nextBtn">&gt;</button>
-            </div>
-        </div>
+        <div class="slider-container" style="position: relative; display: flex; align-items: center; justify-content: center; max-width: 800px; margin: 0 auto;">
+    
+    <button id="prevBtn" class="slider-arrow">&#10094;</button>
+
+    <div class="slider-image-wrapper" style="width: 100%; position: relative;">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" id="videoLink" class="video-link">
+            <img src="assets/aquarium1.jpg" alt="Deepfall Aquarium" class="slider-img" id="sliderImage" style="width: 100%; border-radius: 10px; display: block;">
+            <div class="play-btn-overlay">&#9658;</div>
+        </a>
+    </div>
+
+    <button id="nextBtn" class="slider-arrow">&#10095;</button>
+
+</div>
     </section>
 
     <section id="about" class="about-section reveal">
@@ -135,7 +138,7 @@
             </div>
             <div class="footer-links">
                 <h4>STUDIO</h4>
-                <a href="#">About Us</a>
+                <a href="about.html">About Us</a>
                 <a href="#">Careers</a>
                 <a href="#">Contact</a>
             </div>
