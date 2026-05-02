@@ -503,3 +503,48 @@ footer {
     line-height: 1;
     margin: 0;
 }
+
+/* Styling for profile and concept photos */
+.concept-img {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    border: 3px solid var(--accent) !important;
+    margin: 20px auto !important;
+    display: block !important;
+}
+
+/* Positioning and sizing the slider arrows */
+.slider-arrow {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    /* INCREASED PADDING: Gives the button a larger clickable background area */
+    padding: 20px 30px; 
+    /* INCREASED FONT SIZE: Makes the actual arrow much bigger */
+    font-size: 40px; 
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.slider-arrow:hover {
+    background: #1cc3b2; /* Skynetic Teal */
+    color: black;
+}
+/* GPS Coordinates for the Left Arrow */
+#prevBtn {
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%); /* This perfectly centers it vertically */
+}
+
+/* GPS Coordinates for the Right Arrow */
+#nextBtn {
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%); /* This perfectly centers it vertically */
+}
